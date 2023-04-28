@@ -9,25 +9,31 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <nav>
-            <section class="hamburger-menu">
-                <input id="menu__toggle" class="hidden" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
-
-                <ul class="menu__box">
-                    <li><a class="menu__item" href="#">Home</a></li>
-                    <li><a class="menu__item" href="#">About</a></li>
-                    <li><a class="menu__item" href="#">Team</a></li>
-                    <li><a class="menu__item" href="#">Contact</a></li>
-                    <li><a class="menu__item" href="#">Twitter</a></li>
+        <header>
+            <a class="logo" href="/"><img src="images/logo.svg" alt="logo"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
                 </ul>
-            </section>
-        </nav>
+            </nav>
+            <a class="cta" href="#">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
+        <div id="mobile__menu" class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="#">Services</a>
+                <a href="#">Projects</a>
+                <a href="#">About</a>
+            </div>
+        </div>
         <main>
             <section class="top">
-
+                <img src="./img/car.svg" class="colourFilter">
+                <h1>How To EV!</h1>
+                <span>Your one-stop shop for EV awareness</span>
             </section>
             <section class="second">
 
@@ -38,5 +44,6 @@
         </main>
         <footer></footer>
         <script src="./main.js" async defer></script>
+        <script src="./mobile.js" async defer></script>
     </body>
 </html>
