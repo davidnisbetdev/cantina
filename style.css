@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Kanit; 
 }
 
 header {
@@ -137,7 +140,8 @@ header {
   flex-direction: column;
   align-content: center;
   height: 300px;
-  background-color: #24252a;
+  /* background-color: #24252a; */
+  background-color: RGB(229, 231, 235)
 }
 
 .top > h1, span {
@@ -150,11 +154,42 @@ header {
   color: white;
 }
 
-
-
 .colourFilter {
   height: 200px;
   width: 400px;
   filter: invert(46%) sepia(67%) saturate(370%) hue-rotate(153deg) brightness(90%) contrast(95%);
   padding-left: 50px;
 }
+
+.second {
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background-color: #24252a;
+  padding: 10px 0;
+}
+
+.secTop {
+  width: 100%;
+  max-height: 100px;
+  clear: right;
+  padding-bottom: 10px;
+}
+
+.twoLayout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 300px;
+}
+
+.halfScreen {
+  height: 300px;
+  width: 50%;
+  border: 1px black solid;
+}
+
+
+/* background-color: RGB(229, 231, 235) */
