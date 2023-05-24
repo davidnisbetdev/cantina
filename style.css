@@ -191,6 +191,17 @@ header {
   border: 1px black solid;
 }
 
+h3 {
+  padding-top: 5px;
+}
+
+.halfScreen > ul {
+  list-style: none;
+}
+
+.halfScreen > p {
+  padding: 10px 20px;
+}
 
 /* background-color: RGB(229, 231, 235) */
 
