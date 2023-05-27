@@ -4,7 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Kanit; 
+  font-family: Kanit;
 }
 
 header {
@@ -167,28 +167,36 @@ header {
   flex-direction: column;
   text-align: center;
   color: white;
-  background-color: #24252a;
+  background-color: RGB(229, 231, 235);
   padding: 10px 0;
 }
 
-.secTop {
+/* .secTop {
   width: 100%;
   max-height: 100px;
   clear: right;
   padding-bottom: 10px;
-}
+} */
 
 .twoLayout {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  /* width: 100%; */
   height: 300px;
+  /* margin: 0 20px; */
 }
 
 .halfScreen {
   height: 300px;
   width: 50%;
-  border: 1px black solid;
+  border: 1px green solid;
+}
+
+.secLeft,
+.secRight {
+  margin: 0 60px;
+  background-color: #24252a;
+  border-radius: 5px;
 }
 
 h3 {
